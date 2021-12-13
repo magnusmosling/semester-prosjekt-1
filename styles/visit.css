@@ -75,7 +75,7 @@ ul{
 }
 h3{
     font-family: 'Roboto', sans-serif;
-    padding: 10px 0;
+    padding: 10px 0px;
 }
 .copy{
     margin-top: 1px;
@@ -103,6 +103,134 @@ h5{
 }
 .menu-wrap .toggler{
     opacity: 0;
+}
+
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+}
+
+
+
+.visit-img{
+    height: 100%;
+    object-fit: cover;
+}
+h2{
+    
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-opend{
+    text-align: center;
+    padding: 25px;
+    background-color: #212B37;
+    color: #fff;
+}
+
+.opend-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+
+.map{
+    width: 100%;
+    height: 500px;
+
+}
+
+
+.guided-section{
+    text-align: center;
+    padding: 25px;
+}
+
+.guided-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form{
+    position: relative;
+    width: 700px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    margin: 10px;
+}
+.form input{
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+.form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+    
+}
+.form label::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid gold;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+.content-name{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.form input:focus + .lable-name .content-name,
+.form input:valid + .lable-name .content-name{
+    transform: translateY(-150%);
+    font-size: 1em;
+}
+.form input:focus + .lable-name::after, 
+.form input:valid + .lable-name::after{
+transform: translateX(0%);
+}
+
+
+
+
+
+
+
+
+button{
+    width:200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #212B37;
+    border: none;
+    color: #fff;
+    font-size: 2em;
+    margin: 20PX;
 }
 
 
@@ -284,6 +412,15 @@ h5{
     width: 100%;
 }
 
+.form{
+    width: 400px;
+}
+
+.visit-img{
+    height: 500PX;
+    object-fit: cover;
+}
+
 }
 
 
@@ -292,7 +429,5 @@ h5{
 
 
 @media screen and (max-width: 480px) {
-
-
 
 }

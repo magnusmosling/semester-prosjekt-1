@@ -308,6 +308,7 @@ h5{
     opacity: 0;
 }
 .menu-wrap .hamburger{
+    border-radius: 50%;
     position: absolute;
     top: 0;
     right: 0;
