@@ -48,7 +48,7 @@ li, a{
 }
 
 
-.text-block {
+.img-text {
     position: absolute;
     font-family: 'Unica One', cursive;
     font-size: 3em;
@@ -188,6 +188,7 @@ ul{
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
 }
+
 h3{
     font-family: 'Roboto', sans-serif;
     padding: 10px 0;

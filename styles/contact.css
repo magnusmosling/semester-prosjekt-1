@@ -280,6 +280,7 @@ transform: translateX(0%);
     opacity: 0;
 }
 .menu-wrap .hamburger{
+    border-radius: 50%;
     position: absolute;
     top: 0;
     right: 0;
@@ -404,6 +405,13 @@ transform: translateX(0%);
     width: 100%;
 }
 
+.form{
+    width: 400px;
+}
+.form-message{
+    width: 400px;
+
+}
 }
 
 
