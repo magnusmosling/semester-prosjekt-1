@@ -373,18 +373,21 @@ p{
 }
 
 
+
 .home-footer{
-    padding: 70px;
+    padding: 20px 0px;
     margin: auto;
 }
+
 .home-footer-row{
-    flex-direction: column;
+    flex-direction: row;
 }
 .home-footer-container{
     margin: auto;
 }
 .home-footer-col{
     width: 100%;
+    padding: 5;
 }
 
 .mid-explor-container{
@@ -406,7 +409,14 @@ p{
 
 
 @media screen and (max-width: 480px) {
+    .home-footer{
+        padding: 20px 50px;
+        margin: auto;
+    }
 
+    .home-footer-row{
+        flex-direction: column;
+    }
 
 
 }

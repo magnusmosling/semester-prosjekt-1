@@ -403,18 +403,20 @@ ul{
     }
 
 
-.home-footer{
-    padding: 70px;
-    margin: auto;
-}
-.home-footer-row{
-    flex-direction: column;
-}
+    .home-footer{
+        padding: 20px 0px;
+        margin: auto;
+    }
+
+    .home-footer-row{
+        flex-direction: row;
+    }
 .home-footer-container{
     margin: auto;
 }
 .home-footer-col{
     width: 100%;
+    padding: 5;
 }
 
 .form{
@@ -434,5 +436,12 @@ ul{
 
 
 @media screen and (max-width: 480px) {
+    .home-footer{
+        padding: 20px 50px;
+        margin: auto;
+    }
 
+    .home-footer-row{
+        flex-direction: column;
+    }
 }

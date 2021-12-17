@@ -165,7 +165,7 @@ p{
 
 .home-footer{
     background-color:#212B37 ;
-    padding: 70px;
+    padding: 20px;
     color: #F3F3F3;
     ;
 }
@@ -181,7 +181,7 @@ ul{
 }
 .home-footer-col{
     width: 500px;
-    padding: 20px;
+    padding: 5px 20px;
     margin: 0px;
 }
 .home-footer-col ul li{
@@ -275,18 +275,19 @@ h5{
     }
 
     .home-footer{
-        padding: 70px;
+        padding: 20px 0px;
         margin: auto;
     }
 
     .home-footer-row{
-        flex-direction: column;
+        flex-direction: row;
     }
     .home-footer-container{
         margin: auto;
     }
     .home-footer-col{
         width: 100%;
+        padding: 5;
     }
 
 
@@ -437,6 +438,14 @@ h5{
     }
     .home-event-container{
         display: flex;
+        flex-direction: column;
+    }
+    .home-footer{
+        padding: 20px 50px;
+        margin: auto;
+    }
+
+    .home-footer-row{
         flex-direction: column;
     }
 
